@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    max-width: 1300px;
+    margin: 10px auto;
+}
+body{
+    font-size: 16px;
+}
+/* Header */
+.header__content{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 15%);
+    padding: 10px 20px;
+}
+.btnLogin{
+    padding: 8px 16px;
+    color: black;
+    background-color: #ee4d2d;
+    font-weight: bold;
+}
+
+.btnSign{
+    padding: 8px 16px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+}
+/* Main */
+/* store */
+.store{
+    display: flex;
+    justify-content: center;
+    
+}
+.store__card{
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 15%);
+    padding: 10px;
+}
+.store__card img{
+     width: 400px;
+     object-fit: contain;
+     margin-bottom: 10px;
+}
+.store__card-button {
+    display: flex;
+    justify-content: flex-end;
+}
+.store-add{
+    padding: 8px 16px;
+    color: black;
+    background-color: #ee4d2d;
+    font-weight: bold;
+}
+.store-buy{
+    padding: 8px 16px;
+    color: white;
+    background-color: #8710D8;
+    font-weight: bold;
+    margin-left: 20px;
+}
+/* FOOTER */
+footer {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ee4d2d;
+}
+footer p{
+   font-weight: bold;
+   color: white;
+}
